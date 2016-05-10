@@ -8,15 +8,12 @@
   color: black;
   text-decoration: none;
 }
-#nav, #footer {
-	background-color: #efefef;
-	padding: 10px;
-	margin: 10px;}
+#nav {
+	margin: 0;
+	padding: 0;
+	float: left;
+	}
 
-#image, #header {
-	 padding: 10px;
-	 margin: 10px;
-	 }
 
 body {
 	background-color: white;
@@ -25,56 +22,45 @@ body {
 	}
 	
 li {
-	display: inline;
-	padding: 10px;
+	display: block;
+	width: 60px;
+	height: 60px;
+	position: relative;
+	top: 120px;
 	}
 
-
-img.align-center {
-display: block;
-margin: 0px auto;}
-
-img.medium {
-width: 600px;
-height: 600px;}
-
 p {
+top: 140px;
+position: relative;
+float: right;
 width: 450px;
-float: left;
+height: 450px;
 margin: 5px;
 padding: 5px;
 background-color: #efefef;
 }
 
-h1,h2 {
-text-align: center;}
-
-h1 { 
-	font-size: 4em;
-	text-transform: uppercase;
-	font-family: Futura;}
-	
-h2 { 
-	text-transform: uppercase;
-	font-family: Futura;}
-	
 ul {
-text-align: center;}
+list-style-type: none;
+text: bold;
+}
+
 </style>
 
 <div id="nav">
-			<ul>
+			<ul style="font-weight:bold;">
   <li><a href="index.html">Home</a></li>
   <li><a href="about.html">About</a></li>
   <li><a href="http://cargocollective.com/mikemcleod/">Portfolio</a></li>
   <li><a href="http://mikemcle0d.tumblr.com/">Blog</a></li>
-  <li><a href="https://mikemcleod.threadless.com/">Threadless Shop</a></li>
-			</ul>
+ <!-- <li><a href="https://mikemcleod.threadless.com/">Threadless Shop</a></li>
+			</ul> -->
 </div>
 			
 			<body>
 		<p>Hi, I'm Mike. I'm an illustrator based in Bellingham, Washington. When I'm not drawing, I'm hanging out with my amazing wife Marina -- usually playing 7 Wonders at a local coffee shop. We also have a very whiny cat named Beta who we spoil very much.</p> 
-		<p>On my days off work, I like to go thrifting to find old, illustrated books. There's something about the combination of the smell of ancient pages and masterful drawings that I can't get enough of. Also, although this paragraph is full of super interesting facts, it was added to my about page to test some css code.</p>
+		<!-- <p>On my days off work, I like to go thrifting to find old, illustrated books. There's something about the combination of the smell of ancient pages and masterful drawings that I can't get enough of. Also, although this paragraph is full of super interesting facts, it was added to my about page to test some css code.</p> -->
+			
 			</body>
 	
 </html>

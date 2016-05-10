@@ -8,14 +8,22 @@
   color: black;
   text-decoration: none;
 }
-#nav, #footer {
+#nav {
+	margin: 0;
+	padding: 0;
+	float: left;
+	}
+
+<!--#footer {
 	background-color: #efefef;
 	padding: 10px;
-	margin: 10px;}
+	margin: 0px;
+	text-align: center;
+	} -->
 
 #image, #header {
-	 padding: 10px;
-	 margin: 10px;
+	 padding: 0px;
+	 margin: 0px;
 	 }
 
 body {
@@ -25,8 +33,11 @@ body {
 	}
 	
 li {
-	display: inline;
-	padding: 10px;
+	display: block;
+	width: 60px;
+	height: 60px;
+	position: relative;
+	top: 120px;
 	}
 
 
@@ -35,8 +46,8 @@ display: block;
 margin: 0px auto;}
 
 img.medium {
-width: 600px;
-height: 600px;}
+width: 500px;
+height: 500px;}
 
 p {
 text-align: center;}
@@ -54,16 +65,18 @@ h2 {
 	font-family: Futura;}
 	
 ul {
-text-align: center;}
+list-style-type: none;
+text: bold;
+}
 </style>
 
 <div id="nav">
-			<ul>
+			<ul style="font-weight:bold;">
   <li><a href="index.html">Home</a></li>
   <li><a href="about.html">About</a></li>
   <li><a href="http://cargocollective.com/mikemcleod/">Portfolio</a></li>
   <li><a href="http://mikemcle0d.tumblr.com/">Blog</a></li>
-  <li><a href="https://mikemcleod.threadless.com/">Threadless Shop</a></li>
+  <!-- <li><a href="https://mikemcleod.threadless.com/">Threadless Shop</a></li> -->
 			</ul>
 </div>
 			
@@ -80,11 +93,11 @@ text-align: center;}
 		
 			
 			<!-- <a href = http://www.mikemcleodart.com>Go to the real one.</a> -->
-		</div>
+		<!-- </div>
 		<div id="footer">
 		<p>&copy Copyright 2016</p>
 		</div>
 			</body>
-	</head>
+	</head> -->
 	
 </html>
